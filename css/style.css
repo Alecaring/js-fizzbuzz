@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.ms_main_containter {
+    width: 100%;
+    background-color: #083b4c;
+    /* debud */
+    height: 100vh;
+}
+.ms_main_containter h1 {
+    color: white;
+    font-size: 4rem;
+    padding: 5vh;
+}
+.ms_container {
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    height: 80vh;
+}
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11vw;
+    height: 11vw;
+    font-weight: bold;
+    font-size: 2vw;
+    background-color: #1289b2;
+}
+.fizzBazz {
+    background-color: #f0466f;
+}
+.fizz {
+    background-color: rgb(8 214 161);
+}
+.bazz {
+    background-color: #ffd166; 
+}
